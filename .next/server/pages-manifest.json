@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/work-single": "pages/work-single.js"
+  "/nba-single": "pages/nba-single.js",
+  "/bcc-single": "pages/bcc-single.js"
 }

@@ -61,6 +61,23 @@ Version: 1.0.0
 * Base Styles
 **/
 
+
+.overlay{
+  position: absolute;
+  background: linear-gradient(90deg, #000000 0%, #00855211 100%);
+ mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
 * {
   outline: none;
   box-sizing: border-box;
@@ -266,6 +283,8 @@ a {
   color: #fff;
   text-decoration: underline;
   outline: none;
+  
+  
 }
 
 a:hover {
@@ -291,50 +310,32 @@ input[type="submit"] {
   line-height: 52px;
   text-align: center;
   text-decoration: none;
+  background-color: transparent;
   border: 2px solid #eb6165;
   outline: none !important;
   box-shadow: none !important;
   cursor: pointer;
-  border-radius: 0;
-  -webkit-border-radius: 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.readmore .btn-link {
-  padding: 0 30px;
-  height: 52px;
-  line-height: 48px;
-}
+
 
 input[type="submit"] {
   background-color: #eb6165;
 }
 
-a.btn:before,
-.btn:before,
-a.btn-link:before,
-.btn-link:before,
-button:before {
-  content: "";
-  position: absolute;
-  left: -10%;
-  top: -50%;
-  width: 120%;
-  height: 120%;
-  background: #eb6165;
-  transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
-  -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
-  transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
-  -webkit-transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
-  z-index: -1;
-}
+
 
 a.btn:hover,
 .btn:hover,
 a.btn-link:hover,
 .btn-link:hover {
   color: #fff;
+  background-color: #eb6165;
+  border-radius: 20px;
 }
 
 a.btn:hover:before,
@@ -2669,9 +2670,9 @@ hr {
   position: relative;
   display: block;
   font-family: "Playfair Display";
-  font-size: 108px;
+  font-size: 80px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 900;
   margin: 0 0 70px 0;
   color: inherit;
 }
@@ -2736,6 +2737,7 @@ hr {
 
 .hero-main-slider .more-bts {
   text-align: left;
+
 }
 
 .hero-main-slider .btn.more-btn {
@@ -2744,6 +2746,7 @@ hr {
   font-size: 16px;
   height: auto;
   line-height: 1;
+    border: 2px solid #eb6165;
   padding: 10px;
 }
 
@@ -7385,23 +7388,19 @@ body
 
 @media only screen and (max-width: 767px) {
   .hero-main-slider .slide-titles {
-    padding: 15px;
-    padding-bottom: 15px;
+    padding: 10px;
+
     align-items: center;
   }
   .hero-main-slider .slide-titles .title {
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 0 30px 0;
   }
   .hero-main-slider .slide-titles .subtitle {
-    display: none;
+    width: 350px;
+    padding-top: 10px;
   }
-  .hero-main-slider
-    .swiper-slide.swiper-slide-active
-    .slide-titles
-    .title:after {
-    opacity: 0;
-  }
+
   body .hero-main-slider .swiper-pagination {
     right: 15px;
   }

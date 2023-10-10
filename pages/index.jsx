@@ -16,23 +16,23 @@ const Index = () => {
               className="slide"
               style={{
                 backgroundImage: "url(assets/images/started-n26-1920x1080.jpg)",
+               
               }}
             />
+            <div className="overlay"></div>
             {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
-                  <div className="titles dark">
-                    <div className="label scrolla-element-anim-1">branding</div>
+                  <div className="titles">
+                    <div className="label scrolla-element-anim-1">Multimedia Producer</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Melanin <br />
-                        Goddess
-                      </span>
+                         NBA Digital  </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
                       Creativity is to discover a question that has never been
@@ -41,7 +41,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/work-single">
+                    <Link legacyBehavior href="/nba-single">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -60,22 +60,24 @@ const Index = () => {
               className="slide"
               style={{
                 backgroundImage: "url(assets/images/started-n15-1920x1080.jpg)",
+                
               }}
             />
+             <div className="overlay"></div>
             {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">branding</div>
+                    <div className="label scrolla-element-anim-1">Communications Director</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Blue denim
-                      </span>
+                     Miami-Dade Board of <br/>
+                     County Commissioners </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
                       Creativity is to discover a question that has never been
@@ -84,7 +86,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="/work-single">
+                    <Link legacyBehavior href="/bcc-single">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -104,21 +106,24 @@ const Index = () => {
               style={{
                 backgroundImage:
                   "url(assets/images/started-n2_4-1920x1080.jpg)",
+                backgroundPosition: 'left',
               }}
             />
+             <div className="overlay"></div>
             {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">art</div>
+                    <div className="label scrolla-element-anim-1">Creative Director</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        The Dance
+                     Urban Film <br/>
+                     Festival
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
@@ -156,14 +161,14 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">art</div>
+                    <div className="label scrolla-element-anim-1"></div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Negative Space
-                      </span>
+Creative <br/>
+ Highlight Reel     </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
                       Creativity is to discover a question that has never been

@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/work-single": [
+    "/bcc-single": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/work-single.js"
+      "static/chunks/pages/bcc-single.js"
+    ],
+    "/nba-single": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/nba-single.js"
     ]
   },
   "ampFirstPages": []
